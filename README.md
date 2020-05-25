@@ -73,32 +73,3 @@ Argument      |Description
  model = svm.admm(x.tr, y.tr)
  fit = svm.predict(x.te, model)
 ``` 
-
-# svm.predict
-The predict function for svm.admm
-
-## Description
-
-
- `svm.predict` The function applies a model produced by the `svm.admm` function
- to every row of a data matrix and returns the model predictions.
-
-
-## Usage
-
-```r
-svm.predict(x.te, model)
-```
-
-
-## Arguments
-
-Argument      |Description
-------------- |----------------
-```x.te```     |     A n*p data matrix, input test data.
-```model```     |     The training result created by `svm.admm` .
-
-## Value
-
-
- n-length vector, predicted labels.
