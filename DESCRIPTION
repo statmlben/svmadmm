@@ -1,0 +1,15 @@
+Package: svmadmm
+Title: Linear/Nonlinear SVM Classification Solver Based on ADMM and
+        IADMM Algorithms
+Version: 0.3
+Author: Ben DAI <bendai2-c@my.cityu.edu.hk>; Junhui Wang <j.h.wang@cityu.edu.hk>
+Maintainer: Ben DAI <bendai2-c@my.cityu.edu.hk>
+Description: 
+    Solve large-scale regularised linear/kernel classification by using ADMM and IADMM algorithms. This package provides linear L2-regularised primal classification (both ADMM and IADMM are available), kernel L2-regularised dual classification (IADMM) as well as L1-regularised primal classification (both ADMM and IADMM are available).
+Depends: R (>= 3.2.2), kernlab
+License: GPL-2
+LazyData: true
+Repository: CRAN
+NeedsCompilation: yes
+Packaged: 2016-03-29 05:08:45 UTC; ben
+Date/Publication: 2016-03-29 10:50:29

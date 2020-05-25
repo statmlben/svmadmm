@@ -1,0 +1,4 @@
+useDynLib(svmadmm)
+import(kernlab)
+export(svm.admm)
+export(svm.predict)
