@@ -1,16 +1,26 @@
+[![](https://www.r-pkg.org/badges/version/svmadmm?color=green)](https://cran.r-project.org/package=badger)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/svmadmm?color=green)](https://cran.r-project.org/package=badger)
+[![](http://cranlogs.r-pkg.org/badges/last-month/svmadmm?color=green)](https://cran.r-project.org/package=badger)
+[![](http://cranlogs.r-pkg.org/badges/last-week/svmadmm?color=green)](https://cran.r-project.org/package=badger)
+
 # svmadmm
 Linear/Nonlinear SVM Classification Solver Based on ADMM and IADMM Algorithms
 
 ## Description
 
-
- `svm.admm` is a simple function for solving large-scale regularized linear/nonlinear
+`svm.admm` is a simple function for solving large-scale regularized linear/nonlinear
  classification by using ADMM and IADMM algorithms. This function provides
  linear L2-regularized primal classification (both ADMM and IADMM are available),
  kernel L2-regularized dual classification (IADMM) as well as L1-regularized primal
  classification (both ADMM and IADMM are available). The training of the models perform well
  practice.
 
+## Installation
+
+You can install `svmadmm` by 
+```r
+devtools::install_github("statmlben/svmadmm")
+```
 
 ## Usage
 
