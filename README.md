@@ -1,6 +1,6 @@
 [![](https://www.r-pkg.org/badges/version/svmadmm?color=green)](https://cran.r-project.org/package=badger)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/svmadmm?color=green)](https://cran.r-project.org/package=badger)
-[![](http://cranlogs.r-pkg.org/badges/last-month/svmadmm?color=green)](https://cran.r-project.org/package=badger)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/svmadmm?color=red)](https://cran.r-project.org/package=badger)
+[![](http://cranlogs.r-pkg.org/badges/last-month/svmadmm?color=blue)](https://cran.r-project.org/package=badger)
 [![](http://cranlogs.r-pkg.org/badges/last-week/svmadmm?color=green)](https://cran.r-project.org/package=badger)
 
 # svmadmm
